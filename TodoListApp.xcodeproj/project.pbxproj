@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB0AA55A2794B72E00E39387 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0AA5592794B72E00E39387 /* ListViewModel.swift */; };
 		CB5EA60C279254D1005EFAD2 /* TodoListAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5EA60B279254D1005EFAD2 /* TodoListAppApp.swift */; };
 		CB5EA610279254D2005EFAD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB5EA60F279254D2005EFAD2 /* Assets.xcassets */; };
 		CB5EA613279254D2005EFAD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB5EA612279254D2005EFAD2 /* Preview Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB0AA5592794B72E00E39387 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		CB5EA608279254D1005EFAD2 /* TodoListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB5EA60B279254D1005EFAD2 /* TodoListAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListAppApp.swift; sourceTree = "<group>"; };
 		CB5EA60F279254D2005EFAD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB0AA5582794B6FB00E39387 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CB0AA5592794B72E00E39387 /* ListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		CB5EA5FF279254D1005EFAD2 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +67,7 @@
 		CB5EA60A279254D1005EFAD2 /* TodoListApp */ = {
 			isa = PBXGroup;
 			children = (
+				CB0AA5582794B6FB00E39387 /* ViewModels */,
 				CB5EA62227926228005EFAD2 /* Models */,
 				CB5EA619279259B2005EFAD2 /* Views */,
 				CB5EA60B279254D1005EFAD2 /* TodoListAppApp.swift */,
@@ -164,6 +175,7 @@
 			files = (
 				CB5EA62427926242005EFAD2 /* ItemModel.swift in Sources */,
 				CB5EA62127925C2B005EFAD2 /* AddView.swift in Sources */,
+				CB0AA55A2794B72E00E39387 /* ListViewModel.swift in Sources */,
 				CB5EA60C279254D1005EFAD2 /* TodoListAppApp.swift in Sources */,
 				CB5EA61B279259C1005EFAD2 /* ListView.swift in Sources */,
 				CB5EA61F27925A8C005EFAD2 /* ListRowView.swift in Sources */,
