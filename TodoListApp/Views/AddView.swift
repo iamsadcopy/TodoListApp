@@ -21,7 +21,7 @@ struct AddView: View {
             TextField("Typy some task here...", text: $taskName)
                 .padding(.horizontal, 16)
                 .frame(height: 55)
-                .background(.gray.opacity(0.3))
+                .background(Color(UIColor.secondarySystemBackground))
                 .cornerRadius(10)
             Button {
                 onSubmitPressed()
@@ -67,6 +67,7 @@ struct AddView_Previews: PreviewProvider {
         NavigationView {
             AddView()
         }
+        .preferredColorScheme(.dark)
         .environmentObject(ListViewModel())
     }
 }
